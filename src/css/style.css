@@ -19,9 +19,11 @@ body {
 }
 
 main {
+    height: 100vw;
     height: 100vh;
     position: relative;
 }
+
 
 section#telefone {
     position: absolute;
@@ -63,4 +65,41 @@ section#redes-sociais img:hover{
     transform: translate(-5px -5px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
     transition: transform .3s, width .3s, border .3s;
+}
+
+section#sites{
+    text-align: left;
+}
+
+section#sites, img{
+
+    width: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    box-sizing: border-box;
+}
+
+section#sites img:hover{
+
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    width: 60px;
+    transform: translate(-5px -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    transition: transform .3s, width .3s, border .3s;
+}
+
+#nft {
+    height: 40px;
+    width: 40px;
+}
+
+p{
+    color: white;
+}
+
+p:hover{
+    color: aqua;
+    font-size: 30px;
+    text-decoration: wavy;
 }
