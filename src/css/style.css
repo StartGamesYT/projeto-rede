@@ -1,29 +1,29 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body{
+html, body {
     height: 100vh;
     width: 100vw;
     background-color: black;
 }
 
-body{
+body {
     background: url(../img/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-main{
+main {
     height: 100vh;
     position: relative;
 }
 
-section#telefone{
+section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,4 +33,12 @@ section#telefone{
     width: 311px;
     background-color: blue;
     background: url(../img/frame-iphone.png) no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
 }
