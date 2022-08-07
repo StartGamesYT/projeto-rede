@@ -100,6 +100,11 @@ p{
 
 p:hover{
     color: aqua;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: wavy;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }
