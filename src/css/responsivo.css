@@ -1,7 +1,7 @@
-@media (max-width: 267px){
+@media (max-width: 500px){
 
     #telefone{
-        width: 200px;
-        height: 290px;
+        min-width: 200px;
+        min-height: 290px;
     }
 }
